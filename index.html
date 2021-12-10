@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI elements</title>
+  </head>
+  <body>
+    <!-- DROP DOWN MENUS -->
+    <header>
+      <nav>
+        <div id="home" class="home">
+          <button class="home">Home</button>
+        </div>
+        <div id="services" class="dropdown-container">
+          <button class="services">Services</button>
+          <ul id="services-list">
+            <li class="service">Coaching</li>
+            <li class="service">Itemization</li>
+            <li class="service">Laning stage</li>
+            <li class="service">Lategame decisions</li>
+          </ul>
+        </div>
+        <div id="products" class="dropdown-container">
+          <button class="products">Products</button>
+          <ul id="products-list">
+            <li class="product">Hoodies</li>
+            <li class="product">T-shirts</li>
+            <li class="product">Caps</li>
+            <li class="product">Mousepads</li>
+          </ul>
+        </div>
+
+        <div id="contact" class="contact"></div>
+      </nav>
+    </header>
+    <!-- IMG CAROUSEL -->
+    <main>
+      //
+      <div id="frame" class="photo-frame">
+        <div id="slides-container">
+          <div id="img1" class="img" data-num="1"></div>
+          <div id="img2" class="img" data-num="2"></div>
+          <div id="img3" class="img" data-num="3"></div>
+          <div id="img4" class="img" data-num="4"></div>
+          <button id="next" class="nav-btn">next</button>
+          <button id="previous" class="nav-btn">prev</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
